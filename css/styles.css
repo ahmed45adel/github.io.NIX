@@ -1,0 +1,58 @@
+:root {
+    --blue: #03a4ed;
+    --purple: #ff695f;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.card {
+    border-radius: 50px 50px 50px 50px;
+    height: 85vh;
+    margin-top: 3vw;
+}
+
+.btn-primary {
+    width: 40%;
+    margin: 0 auto;
+}
+
+/*responsive , :after */
+
+.plan {
+    background-image: url('https://technext.github.io/onix/assets/images/tables-left-dec.png'), url('https://technext.github.io/onix/assets/images/tables-right-dec.png');
+    background-repeat: no-repeat;
+    background-position: left, right;
+    height: 150vh;
+}
+
+.first__card {
+    background-image: url('../assets/img/1.jpeg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.second__card {
+    background-image: url('../assets/img/2.jpeg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.third__card {
+    background-image: url('../assets/img/3.jpeg');
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.color__blue {
+    color: var(--blue);
+}
+
+.color__red {
+    color: var(--purple);
+}
+
+.btn-primary {
+    background-color: var(--blue);
+}
