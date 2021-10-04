@@ -9,7 +9,7 @@ body {
 
 .card {
     border-radius: 50px 50px 50px 50px;
-    height: 85vh;
+    height: 79vh;
     margin-top: 3vw;
 }
 
@@ -19,6 +19,17 @@ body {
 }
 
 /*responsive , :after */
+
+.header:after {
+    content: "OUR PLANS";
+    display: block;
+    margin: 0 auto;
+    width: 14vw;
+    margin-bottom: 20px;
+    color: var(--purple);
+    opacity: 0.19;
+    text-align: center;
+}
 
 .plan {
     background-image: url('https://technext.github.io/onix/assets/images/tables-left-dec.png'), url('https://technext.github.io/onix/assets/images/tables-right-dec.png');
