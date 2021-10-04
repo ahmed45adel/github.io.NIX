@@ -9,7 +9,7 @@ body {
 
 .card {
     border-radius: 50px 50px 50px 50px;
-    height: 79vh;
+    height: 35vw;
     margin-top: 3vw;
 }
 
@@ -17,8 +17,6 @@ body {
     width: 40%;
     margin: 0 auto;
 }
-
-/*responsive , :after */
 
 .header:after {
     content: "OUR PLANS";
